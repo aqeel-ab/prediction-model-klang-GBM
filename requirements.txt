@@ -66,7 +66,7 @@ PyPDF2==3.0.1
 pyppeteer==2.0.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
-pywin32==310
+#pywin32==310
 pyzmq==26.4.0
 referencing==0.36.2
 requests==2.32.4
@@ -93,5 +93,5 @@ urllib3==1.26.20
 watchdog==6.0.0
 wcwidth==0.2.13
 webencodings==0.5.1
-websockets==10.4
+#websockets==10.4
 zipp==3.23.0
