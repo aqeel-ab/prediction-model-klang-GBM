@@ -119,7 +119,7 @@ if menu == "Home":
     with st.sidebar:
         st.markdown("### Filters")
         river_opt = ["All"] + sorted(df["river"].dropna().unique().tolist())
-        station_opt = ["All"] + sorted(df["Station_id"].dropna().unique().tolist())
+        #station_opt = ["All"] + sorted(df["Station_id"].dropna().unique().tolist())
         sel_river = st.selectbox("River", river_opt)
         
         mask = pd.Series(True, index=df.index)
